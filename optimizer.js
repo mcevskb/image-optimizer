@@ -222,6 +222,7 @@ Optimizer.prototype.getOptimizers = function (extension) {
       //}
       break;
     case '.jpg':
+    case '.jpeg':
       //if (this.options.jpegtran) {
       //  optimizers.push(this.jpegtran());
       //}
@@ -233,16 +234,6 @@ Optimizer.prototype.getOptimizers = function (extension) {
       }
       if (this.options.mozjpeg) {
         optimizers.push(this.mozjpeg());
-      }
-      break;
-    case '.gif':
-      if (this.options.gifsicle) {
-        optimizers.push(this.gifsicle());
-      }
-      break;
-    case '.svg':
-      if (this.options.svgo) {
-        optimizers.push(this.svgo());
       }
       break;
   }
