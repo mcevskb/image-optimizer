@@ -11,7 +11,7 @@ npm install image-optimizer
 ## Como usar
 
 ```coffee
-Optimizer = require 'optimizer'
+Optimizer = require 'image-optimizer'
 optimizer = new Optimizer
   src: '/path/to/src.ext'
   dest: '/path/to/dest.ext'
