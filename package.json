@@ -1,6 +1,6 @@
 {
   "name": "image-optimizer",
-  "version": "0.2.0",
+  "version": "0.4.0-pre1",
   "description": "Optimize PNG, JPEG images.",
   "repository": {
     "type": "git",
@@ -21,15 +21,11 @@
   },
   "main": "./optimizer",
   "dependencies": {
-    "advpng-bin": "~2.0.2",
-    "async": "~0.9.0",
-    "jpeg-recompress-bin": "~3.0.1",
-    "jpegoptim-bin": "~2.0.1",
-    "mozjpeg": "~4.0.0",
-    "optipng-bin": "~2.0.4",
-    "pngcrush-bin": "~3.0.0",
-    "pngquant-bin": "~3.0.0",
-    "tempfile": "~1.1.0",
-    "zopflipng-bin": "~3.0.0"
+    "async": "^1.2.1",
+    "jpegoptim-bin": "^2.0.1",
+    "mozjpeg": "^4.0.1",
+    "optipng-bin": "^2.0.4",
+    "pngquant-bin": "^3.0.0",
+    "tempfile": "^1.1.1"
   }
 }
